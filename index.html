@@ -22,15 +22,10 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1,
-        h2 {
+        h1 {
             text-align: center;
             color: #333;
-        }
-
-        h1 {
             background-color: #007bff;
-            color: #fff;
             padding: 20px 0;
             margin-top: 0;
             border-top-left-radius: 10px;
@@ -38,7 +33,6 @@
         }
 
         h2 {
-            background-color: #0056b3;
             color: #fff;
             padding: 10px 0;
             margin-top: 0;
@@ -113,6 +107,16 @@
             margin-top: 50px;
             color: #666;
         }
+
+        /* Style for section headers */
+        .section-header {
+            background-color: #0056b3;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 10px 0;
+            margin-top: 0;
+            color: #fff;
+        }
     </style>
 </head>
 
@@ -154,28 +158,40 @@
         </section>
 
         <!-- About Section  -->
-        <section id="about">
-            <h2>About BMIcare</h2>
-            <p>BMIcare is developed with the goal of providing a simple yet effective tool for individuals to monitor their body mass index and gain insights into their overall health status. Our team is dedicated to promoting health awareness and well-being through accessible technology.</p>
-            <p>Meet our team members:</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-                <li><a href="https://github.com/">GitHub</a></li>
-                <li><a href="https://twitter.com/">Twitter</a></li>
-            </ul>
-            <p>Check out our project on <a href="https://github.com/kipsamoh/BMIcare">GitHub</a>.</p>
+        <section id="about" style="background-color: #f8f9fa;">
+            <div class="section-header">
+                <h2>About BMIcare</h2>
+            </div>
+            <div class="about-content">
+                <p>BMIcare is developed with the goal of providing a simple yet effective tool for individuals to monitor their body mass index and gain insights into their overall health status. Our team is dedicated to promoting health awareness and well-being through accessible technology.</p>
+                <p>Meet our team members:</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+                    <li><a href="https://github.com/">GitHub</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                </ul>
+                <p>Check out our project on <a href="https://github.com/kipsamoh/BMIcare">GitHub</a>.</p>
+            </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Have questions or feedback? We'd love to hear from you! Reach out to us at contact@bmicare.com</p>
+        <section id="contact" style="background-color: #f8f9fa;">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-content">
+                <p>Have questions or feedback? We'd love to hear from you! Reach out to us at contact@bmicare.com</p>
+            </div>
         </section>
 
         <!-- Help Section -->
-        <section id="help">
-            <h2>Need Help?</h2>
-            <p>If you need assistance or have any inquiries regarding how to use BMIcare, check out our FAQ section or contact our support team for personalized assistance.</p>
+        <section id="help" style="background-color: #f8f9fa;">
+            <div class="section-header">
+                <h2>Need Help?</h2>
+            </div>
+            <div class="help-content">
+                <p>If you need assistance or have any inquiries regarding how to use BMIcare, check out our FAQ section or contact our support team for personalized assistance.</p>
+            </div>
         </section>
 
         <!-- Footer Section -->
