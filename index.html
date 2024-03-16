@@ -22,7 +22,8 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1 {
+        h1,
+        h2 {
             text-align: center;
             color: #333;
         }
@@ -59,12 +60,6 @@
 
         header h1 {
             font-size: 2em;
-            color: #333;
-        }
-
-        header p {
-            color: #666;
-            margin-bottom: 20px;
         }
 
         nav {
@@ -81,31 +76,92 @@
             display: inline;
             margin-right: 20px;
         }
+
+        .feature {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .feature img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h2 {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
+        <!-- Header Section -->
         <header>
             <h1>BMIcare Calculator App</h1>
-            <img src="images/bmi_image.jpg" alt="BMIcare Image">
-            <p>The BMIcare calculator app is a web-based tool designed to calculate Body Mass Index (BMI) based on user input of height and weight. BMI is a measure used to assess body weight relative to height,and it is commonly used as an indicator of overall health and risk of certain diseases</p>
+            <p>The BMIcare calculator app is a web-based tool designed to calculate Body Mass Index (BMI) based on user input of height and weight. BMI is a measure used to assess body weight relative to height, and it is commonly used as an indicator of overall health and risk of certain diseases.</p>
             <nav>
                 <ul>
-                    <li><a href="#about">Home</a></li>
-                    <li><a href="#contact">About</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#contact">Help</a></li>
+                    <li><a href="#help">Help</a></li>
                 </ul>
             </nav>
             <a href="https://kipsamoh.tech" class="button">Use BMIcare App</a>
         </header>
-        <p>Find information about my project and insights into my journey as a developer.</p>
-        <p>You can also check out the source code of my BMIcare portfolio project on GitHub:</p>
-        <a href="https://github.com/kipsamoh/BMIcare" class="button">View on GitHub</a>
-        <p>Feel free to reach out to me at kipsamoh@gmail.com for any questions or collaborations!</p>
+
+        <!-- Feature Section -->
+        <section id="features">
+            <div class="feature">
+                <img src="images/feature1_image.jpg" alt="Feature 1">
+                <h2>Feature 1: BMI Calculator</h2>
+                <p>Calculate your Body Mass Index (BMI) instantly with our easy-to-use BMI calculator. Input your height and weight, and get your BMI along with a personalized interpretation.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature2_image.jpg" alt="Feature 2">
+                <h2>Feature 2: Health Insights</h2>
+                <p>Gain valuable insights into your health status based on your BMI results. Learn about the significance of BMI, its interpretation, and implications for your overall well-being.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature3_image.jpg" alt="Feature 3">
+                <h2>Feature 3: User-Friendly Interface</h2>
+                <p>Experience a seamless user experience with our intuitive and user-friendly interface. Our app is designed to make BMI calculation and interpretation hassle-free for users of all levels.</p>
+            </div>
+        </section>
+
+        <!-- About Section (if any) -->
+        <section id="about">
+            <h2>About BMIcare</h2>
+            <p>BMIcare is developed with the goal of providing a simple yet effective tool for individuals to monitor their body mass index and gain insights into their overall health status. Our team is dedicated to promoting health awareness and well-being through accessible technology.</p>
+        </section>
+
+        <!-- Contact Section (if any) -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? We'd love to hear from you! Reach out to us at contact@bmicare.com</p>
+        </section>
+
+        <!-- Help Section (if any) -->
+        <section id="help">
+            <h2>Need Help?</h2>
+            <p>If you need assistance or have any inquiries regarding how to use BMIcare, check out our FAQ section or contact our support team for personalized assistance.</p>
+        </section>
+
+        <!-- Additional Sections (if any) -->
+        <!-- Footer Section (if any) -->
+        <footer>
+            <p>&copy; 2024 BMIcare. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 
 </html>
-
